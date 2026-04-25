@@ -1,0 +1,61 @@
+.depoimentos-finais {
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.depoimentos-finais h4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.depoimentos-finais textarea {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.depoimentos-finais input {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.depoimentos-finais button {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.depoimentos-finais button:hover {
+    background-color: black;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    transition: .5s;
+    color: rgb(255, 255, 255);
+}
+
+.container-depoimentos p {
+    width: 60%;
+    height: auto;
+}

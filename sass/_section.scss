@@ -1,0 +1,104 @@
+section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5%;
+    margin: 0.25rem;
+}
+
+.bem-vindo {
+    background-color: rgb(31, 64, 90);
+    color: white;
+}
+
+.sobre {
+    background-color: rgb(31, 64, 90);
+    color: white;
+}
+
+.servicos h3 {
+    font-weight: 200;
+}
+
+.servicos {
+    display: flex;
+    padding: auto;
+}
+
+.servicos .servicos__item {
+    background-color: rgb(31, 64, 90);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos .servicos__item:hover {
+    background-color: transparent;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    color: black;
+    transition: .5s;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 64, 90);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario__escrever {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario__escrever--botao {
+    background-color: white;
+    color: rgb(31, 64, 90);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: .8rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario__escrever--botao:hover {
+    background-color: transparent;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: .5s;
+}
+
+@mixin cor {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@mixin espacamento {
+    padding: 1rem;
+}
+
+$margem: 1.5rem;
+$margem-pequena: 0.5rem;
+
+.sobre p {
+    margin: $margem;
+}
+
+.servicos .servicos__item {
+    margin: $margem-pequena;
+}

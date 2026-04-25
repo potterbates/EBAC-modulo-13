@@ -1,0 +1,81 @@
+.container-depoimentos {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.container-depoimentos h2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.container-depoimentos h4,
+.container-depoimentos h5 {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    height: auto;
+}
+
+.depoimento {
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    background-color: rgb(31, 64, 90);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.depoimento .depoimento--mensagens {
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    color: rgb(248, 248, 248);
+}
+
+.interacao {
+    display: flex;
+    width: auto;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.interacao button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(31, 64, 90);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.interacao button:hover {
+    background-color: transparent;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: .5s;
+}
+
+$tamanho-fonte: 20px;
+$fonte: bold;
+
+.container-depoimentos h2 {
+    font-size: $tamanho-fonte;
+    font-weight: $fonte;
+}
