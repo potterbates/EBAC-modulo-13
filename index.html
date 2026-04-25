@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas Praticas</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__lista--item">Home</li>
+                <li class="menu__lista--item">Sobre</li>
+                <li class="menu__lista--item">Contato</li>
+            </ul>
+        </nav>
+    </header>
+    <img src="css/pc.png" alt="Computador" class="imagem">
+    <main>
+        <section class="bem-vindo">
+            <h1>Bem-vindo ao nosso site</h1>
+            <p>Estamos felizes em tê-lo aqui!</p>
+        </section>
+        <section class="sobre">
+            <h2>Sobre nós</h2>
+            <p>Somos uma empresa dedicada a fornecer os melhores serviços para nossos clientes.</p>
+        </section>
+        <section class="servicos">
+            <div class="servicos__item">
+                <h3>Design Gráfico</h3>
+            </div>
+            <div class="servicos__item">
+                <h3>Desenvolvimento Web</h3>
+            </div>
+            <div class="servicos__item">
+                <h3>Marketing Digital</h3>
+            </div>
+            <div class="servicos__item">
+                <h3>Consultoria</h3>
+            </div>
+        </section>
+        <section class="formulario">
+            <h2>Contato</h2>
+            <form action="/submit" method="post">
+                <input class="formulario__escrever" type="text" id="name" name="name" placeholder="Nome" required>
+                <input class="formulario__escrever" type="email" id="email" name="email" placeholder="Email" required>
+                <input class="formulario__escrever" type="tel" id="numero" name="numero" placeholder="Telefone" required>
+                <button class="formulario__escrever--botao" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <section class="container-depoimentos">
+        <h2>Depoimentos</h2>
+        <div class="depoimento">
+            <h4>Carlos Oliveira</h4>
+            <h5>11 jan 00:38</h5>
+            <p class="depoimento--mensagens">Excelente conteúdo, recomendo. Tive uma excelente experiência com os serviços
+                prestados.</p>
+            <div class="interacao">
+                <button>curtir</button>
+                <button>responder</button>
+            </div>
+        </div>
+        <div class="depoimento">
+            <h4>Joyce Sena</h4>
+            <h5>23 out 08:20</h5>
+            <p class="depoimento--mensagens">Equipe muito profissional e atenciosa.</p>
+            <div class="interacao">
+                <button>curtir</button>
+                <button>responder</button>
+            </div>
+        </div>
+        <div class="depoimento">
+            <h4>João da Silva</h4>
+            <h5>07 set 23:30</h5>
+            <p class="depoimento--mensagens" >Fiquei muito satisfeito com os resultados.</p>
+            <div class="interacao">
+                <button>curtir</button>
+                <button>responder</button>
+            </div>
+        </div>
+                <div class="depoimentos-finais">
+            <h4>Deixe seu comentário</h4>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Nome" required>
+                <textarea id="comment" name="comment" placeholder="Escreva seu comentário aqui..." required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p>&copy; 2026 Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
